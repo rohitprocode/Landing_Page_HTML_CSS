@@ -15,7 +15,7 @@
 .img_section{
     display: flex;
     justify-content: center;
-    min-height:110vh;
+    min-height:100vh;
     background-image: url(Images/developer.png);
     background-size: cover;
     background-position: center;
@@ -68,7 +68,6 @@
 .first:hover, .second:hover, .third:hover{
     transform:scale(110%);
     transition: 0.2s ease-in-out;
-
 }
 .f-img img{
     width: 50vh;
