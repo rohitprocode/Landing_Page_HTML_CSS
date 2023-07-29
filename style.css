@@ -49,9 +49,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: green;
 }
 .service_area{
     background-color: black;
     width: 80vw;
-    height: 10vh;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+}
+.first, .second, .third{
+    width: 50vh;
+    height: 100%;
+    background-color: palegoldenrod;
+    display: flex;
+    flex-direction: column;
+}
+.f-img img{
+    width: 50vh;
 }
