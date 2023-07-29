@@ -89,21 +89,29 @@
 .Contact_Me{
     width: 50vw;
     height: 45vh;
-    background-color: greenyellow;
-    padding: 40px 60px 0px 60px;
+    background-color:darkolivegreen;
+    color: white;
+    padding: 40px 100px 0px 100px;
 }
 .About_Me{
     width: 50vw;
     height: 45vh;
-    background-color: lightsalmon;
-    padding: 40px 60px 0px 60px;
+    background-color: #630000;
+    color: white;
+    padding: 40px 100px 0px 100px;
 }
 .Contact_Me h2 , .About_Me h2{
     /* background-color: black; */
     text-align: start;
     font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
-.Contact_Me p,.About_Me p{
-    background-color: red;
-    font-size: 18px;
+.footer{
+    color: white;
+    min-height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
