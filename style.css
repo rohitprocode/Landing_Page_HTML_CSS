@@ -81,3 +81,29 @@
     font-size: 13.5px;
     font-weight: 300;
 }
+.Me-section{
+    height: 45vh;
+    background-color: blue;
+    display: flex;
+}
+.Contact_Me{
+    width: 50vw;
+    height: 45vh;
+    background-color: greenyellow;
+    padding: 40px 60px 0px 60px;
+}
+.About_Me{
+    width: 50vw;
+    height: 45vh;
+    background-color: lightsalmon;
+    padding: 40px 60px 0px 60px;
+}
+.Contact_Me h2 , .About_Me h2{
+    /* background-color: black; */
+    text-align: start;
+    font-size: 50px;
+}
+.Contact_Me p,.About_Me p{
+    background-color: red;
+    font-size: 18px;
+}
