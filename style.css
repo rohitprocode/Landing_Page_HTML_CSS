@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: lightcoral;
+}
+.img_section{
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Images/developer.png);
+    background-size: 210vh;
+}
