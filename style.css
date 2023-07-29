@@ -9,18 +9,17 @@ body{
     font-family: "Roboto", sans-serif;
 }
 .container{
-    min-width: 100vw;
-    min-height: 100vh;
-    background-color: lightcoral;
+    max-width: 100vw;
+    max-height: 100%;
+    background-color: red;
 }
 .img_section{
-    /* margin: auto; */
     display: flex;
     justify-content: center;
-    width: 100vw;
-    height: 100vh;
+    min-width: 100vw;
+    min-height:110vh;
     background-image: url(Images/developer.png);
-    background-size: 210vh;
+    background-size: cover;
 }
 .Img_text_area{
     color: white;
@@ -31,4 +30,30 @@ body{
 }
 #p1 span{
     font-size: 35px;
+}
+.text-head{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    letter-spacing: 2px;
+    background-color: black;
+    color: white;
+}
+.text-head p span{
+    font-size: 120px;
+}
+.section_services{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service_area{
+    background-color: black;
+    width: 80vw;
+    height: 10vh;
 }
